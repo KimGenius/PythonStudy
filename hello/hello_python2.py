@@ -1,4 +1,4 @@
 '''
 안녕 파이썬
 '''
-print('Hello Python')
+print('Hello Python2')
