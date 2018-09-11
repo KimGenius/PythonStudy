@@ -1085,9 +1085,9 @@
                       </option>
                       <option name="index" value="5" />
                       <option name="name" value="String slicing" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="186024" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="testsText">
                         <map>
                           <entry key="tests.py" value="from test_helper import run_common_tests, failed, passed, import_task_file, get_answer_placeholders&#10;&#10;&#10;def test_value():&#10;    file = import_task_file()&#10;    if hasattr(file, &quot;python&quot;) and file.python == &quot;Python&quot;:&#10;        passed()&#10;    else:&#10;        failed(&quot;Check indices used in slicing&quot;)&#10;&#10;&#10;def test_monty_python():&#10;    window = get_answer_placeholders()[0]&#10;    if &quot;monty_python&quot; in window:&#10;        passed()&#10;    else:&#10;        failed(&quot;Use slicing&quot;)&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    test_value()&#10;    test_monty_python()" />
@@ -1115,19 +1115,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="9" />
+                                      <option name="length" value="16" />
                                       <option name="offset" value="167" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="type here" />
                                       <option name="possibleAnswer" value="monty_python[6:]" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
